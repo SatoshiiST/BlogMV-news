@@ -1,0 +1,6 @@
+ImgsAudioVis/* filter=lfs diff=lfs merge=lfs -text
+ImgsConcurso/* filter=lfs diff=lfs merge=lfs -text
+ImgsFolclore/* filter=lfs diff=lfs merge=lfs -text
+ImgsIndependencia/* filter=lfs diff=lfs merge=lfs -text
+ImgsMural/* filter=lfs diff=lfs merge=lfs -text
+ImgsPremio/* filter=lfs diff=lfs merge=lfs -text

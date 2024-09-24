@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: #eceaea;*/
+    background-image: url(vetorazulescuro.jpeg);
+    background-repeat: repeat;
+
+}
+
+a {
+    text-decoration: none;
+    color: #0ab8ec;
+    font-family: "Inter", sans-serif;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 27px;
+    padding-left: 5px;
+}
+
+.header {
+    width: 100%;
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.Title_Header {
+    font-family: "Crimson Text", serif;
+    font-size: 75px;
+    color: #ffffff;
+    display: inline-block;
+    
+}
+
+.Itens_Header{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-left: 200px;
+    justify-content: space-between;
+    padding: 8px, 12px;
+}
+
+.MV {
+    font-size: 85px;
+    color: #0ab8ec;
+}
+
+.logoicon {
+    padding: 2px;
+    display: inline-block;
+    width: 90px;
+    height: 75px;
+    padding-left: 0px;
+}
+
+.logo {
+    padding: 7px;
+}
+
+.menu {
+    padding-top: 7px;
+}
+
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Crimson Text", serif;
+}
+
+.menu a {
+
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#menu-item a:hover {
+    color: #0ab8ec;
+    border-bottom: 3px solid #0ab8ec;
+    transition: .1s ease-in;
+}
+
+.content {
+    z-index: 2;
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.contPost {
+    font-family: "Inter", sans-serif;
+    width: 50%;
+   /* float: none;*/
+    margin: auto;
+    margin-left: 150px;
+    padding: 35px;
+    padding-left: 5.5%;
+}
+
+/*.barLateral {
+    margin-top: 151px;
+    z-index: 2;
+    width: 240px;
+    float: right;
+}
+
+.ContLateral {
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.ContLateral h3 {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.destpost {
+    font-size: 13px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.destpost:last-child {
+    font-size: 13px;
+    border-bottom: none;
+}
+
+.destpost h4 {
+    font-size: 14px;
+}
+
+.destpost a {
+    font-size: 15px;
+}*/
+
+
+#post-Inicial {
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 151px;
+    width: 800px;
+}
+
+#MediaS {
+    padding-left: 55px;
+}
+
+p {
+    margin: 10px 0px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+#post-Inicial h2 {
+    font-family: "Crimson Text", serif;
+    font-size: 27px;
+    padding-left: 5px;
+}
+
+
+#post-mural {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaMural {
+    padding-left: 25px;
+    transition: ease 1s;
+}
+
+#MediaMural:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+#post-muralvalorizacao {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaMuralV {
+    padding-left: 45px;
+    transition: ease 1s;
+}
+
+#MediaMuralV:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+#post-independencia {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaIndep {
+    padding-left: 55px;
+    transition: ease 1s;
+}
+
+#MediaIndep:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+#post-independencia h2 {
+    font-family: "Crimson Text", serif;
+}
+
+#post-folclore {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaFolc {
+    padding-left: 45px;
+    transition: ease 1s;
+}
+
+#MediaFolc:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+
+#post-concurso {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaConc {
+    padding-left: 55px;
+    transition: ease 1s;
+}
+
+#MediaConc:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+
+#post-audiovisual {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaVis {
+    padding-left: 45px;
+    transition: ease 1s;
+}
+
+#MediaVis:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+
+#post-premio {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#post-premioprontos {
+    background-color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+#MediaPremio {
+    padding-left: 50px;
+    transition: ease 1s;
+}
+
+#MediaPremio:hover {
+    scale: 1.04;
+    transition: ease 1s;
+}
+
+
+#data-posts {
+    font-size: 0.8rem;
+    display: block;
+    margin-bottom: 10px;
+    font-family: "Merriweather Sans", sans-serif;
+}
+
+.footer {
+    margin-top: 151px;
+    clear: both;
+    background-color: black;
+    padding: 15px;
+}
+
+.footer p {
+    color: #ffffff;
+    text-align: center;
+}
+
+#MVfooter {
+    color: #0ab8ec;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1200px){
+    .header {
+        width: 50%;
+    }
+
+    .content {
+        width: 300px;
+        float: none;
+        margin: 0 0;
+    }
+
+    .Title_Header{
+        font-size: 30px;
+    }
+
+    .MV {
+        font-size: 40px;
+        color: #0ab8ec;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .barLateral {
+        display: none;
+    }
+
+    .contPost {
+        float: none;
+        width: 300px;
+    }
+
+    #MediaS {
+        width: 300px;
+    }
+
+    .Logo {
+        align-items: center;
+        width: 50%;
+    }
+}
