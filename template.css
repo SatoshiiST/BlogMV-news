@@ -10,7 +10,7 @@
 
 body {
     /*background-color: #eceaea;*/
-    background-image: url(vetoazul.png);
+    background-image: url(vetorazulclaro.jpeg);
     background-repeat: repeat;
 
 }
@@ -146,6 +146,10 @@ h2 {
 
 #SourceCapa {
     margin-left: 50px;
+}
+
+#SourceCapa2 {
+    margin-left: 40px;
 }
 
 #parag {
