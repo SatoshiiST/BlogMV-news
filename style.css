@@ -345,23 +345,30 @@ p {
 }
 
 
-@media screen and (max-width: 1200px){
+@media (max-width: 900px){
+
     .header {
-        width: 50%;
+        width: 100%;
+        height: 10%;
     }
 
     .content {
-        width: 300px;
+        width: 100px;
         float: none;
         margin: 0 0;
+        margin-left: 0;
+        /*margin-right: 20%;*/
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
     }
 
     .Title_Header{
-        font-size: 30px;
+        font-size: 75px;
     }
 
     .MV {
-        font-size: 40px;
+        font-size: 90px;
         color: #0ab8ec;
     }
 
@@ -369,21 +376,66 @@ p {
         display: none;
     }
 
-    .barLateral {
-        display: none;
-    }
 
     .contPost {
         float: none;
-        width: 300px;
-    }
-
-    #MediaS {
-        width: 300px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 10px;
+        margin: 2px;
     }
 
     .Logo {
         align-items: center;
-        width: 50%;
+        width: 350px;
     }
+
+    #MediaS {
+        width: 800;
+    }
+
+    a {
+        text-decoration: none;
+        color: #0ab8ec;
+        font-family: "Inter", sans-serif;
+        padding-top: 10px;
+        font-size: 35px;
+    }
+    
+    h2 {
+        font-family: "Crimson Text", serif;
+        font-size: 50px;
+        padding-left: 5px;
+    }
+
+    #post-Inicial h2 {
+        font-family: "Crimson Text", serif;
+        font-size: 50px;
+        padding-left: 5px;
+    }
+
+    p {
+        margin: 10px 0px;
+        font-family: "Merriweather Sans", sans-serif;
+        font-size: 30px;
+    }
+
+    #data-posts {
+        font-size: 25px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 15%;
+    }
+
+    .footer p {
+        font-size: 40px;
+    }
+
+    #MVfooter {
+        font-size: 50px;
+    }
+
+
 }
