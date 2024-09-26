@@ -12,7 +12,7 @@ body {
     /*background-color: #eceaea;*/
     background-image: url(vetorazulescuro.jpeg);
     background-repeat: repeat;
-
+    zoom: 0;
 }
 
 a {
@@ -349,7 +349,7 @@ p {
 
     .header {
         width: 100%;
-        height: 10%;
+        height: 11%;
     }
 
     .content {
@@ -368,7 +368,7 @@ p {
     }
 
     .MV {
-        font-size: 90px;
+        font-size: 100px;
         color: #0ab8ec;
     }
 
@@ -386,8 +386,14 @@ p {
     }
 
     .Logo {
-        align-items: center;
+        /*align-items: center;*/
         width: 350px;
+    }
+
+    .logoicon {
+        width: 140px;
+        height: 130px;
+        margin-left: 10px;
     }
 
     #MediaS {
@@ -437,5 +443,6 @@ p {
         font-size: 50px;
     }
 
+    
 
 }
