@@ -282,4 +282,8 @@ h2 {
         height: 130px;
         margin-left: 10px;
     }
+
+    body {
+        overflow-x: hidden;
+    }  
 }
