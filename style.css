@@ -345,7 +345,7 @@ p {
 }
 
 
-@media (max-width: 900px){
+@media screen and (max-width: 900px){
 
     .header {
         width: 101%;
