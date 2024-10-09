@@ -348,7 +348,7 @@ p {
 @media (max-width: 900px){
 
     .header {
-        width: 100%;
+        width: 101%;
         height: 11%;
     }
 
@@ -435,7 +435,7 @@ p {
     }
 
     .footer {
-        width: 100%;
+        width: 101%;
         height: 15%;
         padding-left: 0;
         padding-right: 0;
